@@ -1,0 +1,15 @@
+{
+  "name": "@reach-sh/session6",
+  "type": "module",
+  "dependencies": {
+    "@reach-sh/stdlib": "^0.1.11-rc.6",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0"
+  },
+  "author": "reach.sh",
+  "license": "Apache-2.0",
+  "scripts": {
+    "lint": "eslint --ignore-path .gitignore --ext .mjs .",
+    "index": "node --experimental-modules --unhandled-rejections=strict index.mjs"
+  }
+}
